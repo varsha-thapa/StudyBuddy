@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f3f3;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #eddddd;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #727171;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #efe8e8;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #a9a7a7;
+  box-shadow: 10 20 10 black;
+}
+
+form input,
+form select {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #4f80ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.gallery {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.gallery h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+#notesList {
+  list-style: none;
+  padding: 0;
+}
+
+#notesList li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #f3f3f3;
+  border-top: 1px solid #ddd;
+  margin-top: 3rem;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Buddy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="logo">Study Buddy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="notes.html">Notes</a>
+      <a href="#">Reminders</a>
+      <a href="#">Study Groups</a>
+      <a href="#">Chat room</a>
+      <a href="#">Profile</a>
+    </nav>
+
+  <main>
+    <h1>Upload Your Notes</h1>
+    <p class="subtitle">Add your class materials to keep everything in one place.</p>
+
+    <form id="uploadForm">
+      <input type="text" id="title" placeholder="Title" required />
+      <select id="subject" required>
+        <option value="" disabled selected>Select Subject</option>
+        <option>Web Dev</option>
+        <option>DBMS</option>
+        <option>JavaScript</option>
+        <option>Others</option>
+      </select>
+      <input type="file" id="fileInput" accept=".pdf, .png, .jpg, .jpeg" required />
+      <button type="submit">Upload Notes</button>
+    </form>
+
+    <section class="gallery">
+      <h2>Notes Gallery</h2>
+      <ul id="notesList">
+        <!-- Notes will appear here -->
+      </ul>
+    </section>
+  </main>
+
+ 
+
+  <script src="notes.js"></script>
+</body>
+</html>
